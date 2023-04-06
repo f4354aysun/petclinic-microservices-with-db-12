@@ -158,4 +158,4 @@
 
   - name: create StorageClass object
     become: false
-    shell: kubectl apply -f storage.yml
+    shell: kubectl apply -f storage.ymls
